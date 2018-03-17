@@ -26,7 +26,7 @@ h2 {
 
 h3 {
     font-size: 25px;
-    color: #fff
+    color: #fff;
 }
 
 h4 {
@@ -40,7 +40,7 @@ h5 {
 
 h6 {
     font-size: 16px;
-    color: #fff
+    color: #fff;
 }
 
 
@@ -90,6 +90,7 @@ footer {
 nav ul {
     list-style: none;
     text-align: center;
+	padding:0px;
 }
 
 nav li {
@@ -130,7 +131,7 @@ hr {
     margin-left: 350px;
     border-radius: 0px;
     margin-bottom: 50px;
-    align-content: center
+    align-content: center;
 }
 
 .summaryheadline {
@@ -151,15 +152,14 @@ hr {
 }
 
 #contactpicture {
-    background-image: url(../img/contactpicture.jpg);
+    
     background-attachment: scroll;
     background-repeat: no-repeat;
     position: relative;
     border-radius: 50%;
-    Height: 524px;
-    Width: 394px;
-    margin-left: 200px;
-    margin-top: 50px;
+    height: 524px;
+    width: 394px;
+	float:left;
 }
 
 .intro {
@@ -190,13 +190,14 @@ input[type='submit'] {
     text-align: center;
 }
 #aboutme {
-    float: right;
+    float: left;
     position: relative;
     margin-left: 400px;
     height: 300px;
     width: 400px;
     margin-top: -500px;
     margin-right: 300px;
+	padding-left:40px;
 }
 
 form {
