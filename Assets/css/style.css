@@ -1,0 +1,60 @@
+.body{
+    background-color: gray;
+}
+
+.item {
+    margin: auto;
+    opacity: 1;
+    width: 100px;
+    height: 200px;
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px;
+    margin: 10px;
+    padding left: 300px;
+    padding right: 300px;
+}
+
+.background{
+    background-image: url("../img/Bookshelves.png");
+    width: auto;
+    height: auto;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+
+.social{
+    padding: 2px;margin: 5px;
+    display: inline-block;
+    list-style-type: none;
+    object-position: center top;
+}
+
+.heroimage{
+    background-image: url("../img/heroImage.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.socialbackground{
+    background-attachment: fixed;
+    float: center;
+    padding: 10px;
+    border-radius: 0px;
+    
+}
+    
+footer {
+    float: center;
+    background: #000;
+    border-radius: 0px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    height: 100px;
+}
+    
